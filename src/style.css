@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  border: 2px solid #000;
+}
+
+ul li {
+  padding: 5px;
+}
+
+main section {
+  width: 48%;
+}
+
+ul li:nth-child(even) {
+  background: grey;
+}
+
+#scores .flex {
+  justify-content: space-between;
+}
+
+#form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+}
+
+#form input::placeholder {
+  font-size: 1.1rem;
+}
+
+#form h2 {
+  margin-bottom: 2.5rem;
+}
+
+.form-handler {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+button {
+  padding: 5px 20px;
+  background: #fff;
+  font-weight: bold;
+  box-shadow: rgba(13, 13, 13) 2.4px 2.4px 3.2px;
+}
