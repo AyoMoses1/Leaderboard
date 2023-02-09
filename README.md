@@ -7,7 +7,7 @@
   <img src="src/images/1.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
+  <h3><b>Leaderboard App</b></h3>
 
 </div>
 
