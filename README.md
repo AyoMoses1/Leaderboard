@@ -97,7 +97,7 @@ Install this project with:
 
 
 ```sh
-  cd todolist
+  cd Leaderboard
   node version 16
 ```
 
