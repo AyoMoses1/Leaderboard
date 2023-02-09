@@ -14,13 +14,22 @@ body {
   box-sizing: border-box;
   font-weight: 600;
   font-size: 1.2rem;
+  background: rgb(5, 43, 77);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  background: rgb(1, 1, 97);
+  padding-left: 20px;
 }
 
 main {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px 20px;
+  padding: 20px 40px;
 }
 
 .flex {
@@ -42,7 +51,12 @@ main section {
 }
 
 ul li:nth-child(even) {
-  background: grey;
+  background: rgb(1, 1, 97);
+}
+
+ul li:nth-child(odd) {
+  background: #fff;
+  color: #000;
 }
 
 #scores .flex {
